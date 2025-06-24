@@ -13,7 +13,7 @@ import secrets
 # Настройки бота
 TOKEN = os.getenv("8164381436:AAGfqtB4y9pjlg7rMzPAysMPsqixaUFVvZA")
 ADMIN_IDS = list(map(int, os.getenv("ADMIN_IDS", "6790535634,6303872304").split(",")))
-SITE_URL = os.getenv("SITE_URL", "https://your-site.onrender.com")
+SITE_URL = os.getenv("SITE_URL", "https://free-gold-bot-new.onrender.com")
 MIN_WITHDRAW = 250
 MAX_WITHDRAW = 400
 REFERRAL_BONUS = 4
